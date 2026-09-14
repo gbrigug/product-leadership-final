@@ -17,5 +17,5 @@
 - **KR3:** Self-reported symptom reduction / issue-resolution rate after completing a content track increases by 20% over baseline.
 
 ## AI pressure-test
-- **Which challenge from the AI is most valid, and why?:** It challenges our promise of effectiveness, which is valid.
+- **Which challenge from the AI is most valid, and why?:** It challenges our promise of effectiveness, which is valid. This is something that is also claimed by our competitors. We need to prove that to our users.
 - **What would you change based on the pushback, and what would you defend?:** We need to do market research to 1) identify top market needs (ex: what people need mental help services for), and 2)  where our competitors are lacking solutions for these spaces.
