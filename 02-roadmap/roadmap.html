@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Strategy Roadmap - Now / Next / Later</title>
+    <style>
+        @page {
+            size: A4 portrait;
+            margin: 16mm 14mm;
+            background-color: #f8fafc;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+
+        .header-container {
+            border-bottom: 2px solid #0284c7;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+        }
+
+        .header-title {
+            font-size: 20pt;
+            font-weight: 700;
+            color: #0f172a;
+            margin: 0 0 4px 0;
+            letter-spacing: -0.5px;
+        }
+
+        .header-subtitle {
+            font-size: 10pt;
+            color: #64748b;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 600;
+        }
+
+        .section-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            padding: 16px 18px;
+            margin-bottom: 16px;
+            page-break-inside: avoid;
+        }
+
+        .section-header {
+            display: table;
+            width: 100%;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 9pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-now {
+            background-color: #0284c7;
+            color: #ffffff;
+        }
+
+        .badge-next {
+            background-color: #0f766e;
+            color: #ffffff;
+        }
+
+        .badge-later {
+            background-color: #475569;
+            color: #ffffff;
+        }
+
+        .section-subtext {
+            font-size: 8.5pt;
+            color: #64748b;
+            margin-left: 10px;
+            font-style: italic;
+        }
+
+        .item-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .item-card {
+            margin-bottom: 10px;
+            padding: 10px 12px;
+            background-color: #f8fafc;
+            border-left: 3px solid #cbd5e1;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .item-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .now-card {
+            border-left-color: #0284c7;
+            background-color: #f0f9ff;
+        }
+
+        .next-card {
+            border-left-color: #0f766e;
+            background-color: #f0fdf4;
+        }
+
+        .later-card {
+            border-left-color: #64748b;
+            background-color: #f8fafc;
+        }
+
+        .item-title {
+            font-weight: 600;
+            color: #0f172a;
+            font-size: 10pt;
+            margin-bottom: 3px;
+        }
+
+        .item-body {
+            font-size: 9.5pt;
+            color: #334155;
+        }
+
+        .bold-tag {
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+        .okr-tag {
+            display: inline-block;
+            font-size: 8pt;
+            font-weight: 600;
+            padding: 1px 6px;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            border-radius: 3px;
+            margin-left: 4px;
+        }
+
+        .footer {
+            margin-top: 24px;
+            padding-top: 10px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 8pt;
+            color: #94a3b8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="header-title">Product Outcome Roadmap</div>
+        <div class="header-subtitle">Strategy Alignment & Strategic Bets Framework</div>
+    </div>
+
+    <!-- NOW SECTION -->
+    <div class="section-card">
+        <div class="section-header">
+            <span class="badge badge-now">NOW</span>
+            <span class="section-subtext">Active Strategic Bets • Outcome-based ("We bet [action] will [outcome] for [who]")</span>
+        </div>
+        <div class="item-list">
+            <div class="item-card now-card">
+                <div class="item-title">Bet 1: Frictionless Onboarding & Modular Activation <span class="okr-tag">KR1</span></div>
+                <div class="item-body">
+                    We bet streamlining initial onboarding and removing friction to first-resolution modules will increase 48-hour modular activation for users seeking immediate digital therapy for non-critical mental health challenges.
+                </div>
+            </div>
+            <div class="item-card now-card">
+                <div class="item-title">Bet 2: Daily Habit Formation Mechanics <span class="okr-tag">KR2</span></div>
+                <div class="item-body">
+                    We bet introducing daily habit-forming engagement mechanics will grow repeat behavior by 5% over 30 days for active users attempting to build a consistent self-help routine.
+                </div>
+            </div>
+            <div class="item-card now-card">
+                <div class="item-title">Bet 3: AI Contextual Re-engagement Prompts <span class="okr-tag">KR2</span></div>
+                <div class="item-body">
+                    We bet delivering AI-personalized check-in prompts based on past interactions will drive higher 30-day user retention and re-engagement for recurring users looking for relevant ongoing support.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEXT SECTION -->
+    <div class="section-card">
+        <div class="section-header">
+            <span class="badge badge-next">NEXT</span>
+            <span class="section-subtext">Sequenced Initiatives • Strategic Rationale</span>
+        </div>
+        <div class="item-list">
+            <div class="item-card next-card">
+                <div class="item-title">High-Effectiveness Content Track Expansion</div>
+                <div class="item-body">
+                    Expand proprietary, in-house content into identified underserved market niches.<br>
+                    <span class="bold-tag">Rationale:</span> Optimizing activation and habit retention in "Now" ensures new content reaches highly retained users rather than leaking out of an unoptimized funnel.
+                </div>
+            </div>
+            <div class="item-card next-card">
+                <div class="item-title">Self-Reported Efficacy & Issue-Resolution Validation <span class="okr-tag">KR3</span></div>
+                <div class="item-body">
+                    Implement interactive, post-module symptom resolution assessments to track user efficacy over baseline.<br>
+                    <span class="bold-tag">Rationale:</span> Follows core retention mechanics to ensure users remain active long enough to measure true 30-day symptom improvement.
+                </div>
+            </div>
+            <div class="item-card next-card">
+                <div class="item-title">Competitor Gap & Market Need Discovery</div>
+                <div class="item-body">
+                    Conduct targeted market research to pinpoint exact therapy gaps where top competitors lack effective digital solutions.<br>
+                    <span class="bold-tag">Rationale:</span> Grounds future content expansion in validated market gaps rather than unverified assumptions.
+                </div>
+            </div>
+            <div class="item-card next-card">
+                <div class="item-title">Organic Content Effectiveness Loop</div>
+                <div class="item-body">
+                    Build internal feedback mechanisms between user resolution metrics and content creation pipelines.<br>
+                    <span class="bold-tag">Rationale:</span> Requires initial engagement baselines to accurately judge which content styles drive true symptom reduction.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LATER SECTION -->
+    <div class="section-card">
+        <div class="section-header">
+            <span class="badge badge-later">LATER</span>
+            <span class="section-subtext">Future Horizon • Strategic Bets (Non-Commitments)</span>
+        </div>
+        <div class="item-list">
+            <div class="item-card later-card">
+                <div class="item-title">Seamless Non-Psychiatric Care Continuity</div>
+                <div class="item-body">
+                    Explore automated handoffs or localized digital safety nets for users whose non-critical challenges escalate beyond digital self-help boundaries.
+                </div>
+            </div>
+            <div class="item-card later-card">
+                <div class="item-title">Algorithmic Content Personalization Engine</div>
+                <div class="item-body">
+                    Move beyond basic AI check-ins to dynamic, real-time therapy path adjustments based on live symptom reduction feedback.
+                </div>
+            </div>
+            <div class="item-card later-card">
+                <div class="item-title">B2B / Institutional Market Expansion</div>
+                <div class="item-body">
+                    Adapt organic content modules for corporate or institutional wellbeing programs once direct-to-consumer effectiveness is provably validated.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Outcome-Based Roadmap Document • Prepared for Product Leadership Review
+    </div>
+
+</body>
+</html>
