@@ -12,7 +12,7 @@
 
 ## Write your three OKRs
 - **Objective:** Fable can address new markets with it's expanded content & self-help material.
-- **KR1:** Modular ctivation rate (users completing their first resolution module within 48 hours) increases from X% to Y%.
+- **KR1:** Modular activation rate (users completing their first resolution module within 48 hours) increases from X% to Y%.
 - **KR2:** Repeat 30-day user behavior grows 5% with the release of new content
 - **KR3:** Self-reported symptom reduction / issue-resolution rate after completing a content track increases by 20% over baseline.
 
