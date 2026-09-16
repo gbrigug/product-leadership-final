@@ -18,4 +18,4 @@
 - **If someone who had never seen your strategy read the Now column, would they know what problem you are solving this quarter?:** I think they could parse the main goals, yes.
 
 ## Save your roadmap
-- **Where did you save your roadmap? (link or file):** HTML file
+- **Where did you save your roadmap? (link or file):** ./roadmap.html HTML file
