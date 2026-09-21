@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fable Growth Team Charter Alignment</title>
+    <style>
+        @page {
+            size: A4 portrait;
+            margin: 14mm 14mm;
+            background-color: #f8fafc;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+            font-size: 9.5pt;
+            line-height: 1.45;
+        }
+
+        .header-container {
+            border-bottom: 2px solid #0284c7;
+            padding-bottom: 10px;
+            margin-bottom: 16px;
+        }
+
+        .header-title {
+            font-size: 18pt;
+            font-weight: 700;
+            color: #0f172a;
+            margin: 0 0 3px 0;
+            letter-spacing: -0.4px;
+        }
+
+        .header-subtitle {
+            font-size: 9pt;
+            color: #64748b;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 600;
+        }
+
+        .section-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            padding: 14px 16px;
+            margin-bottom: 14px;
+        }
+
+        .section-title {
+            font-size: 11pt;
+            font-weight: 700;
+            color: #0369a1;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .grid-3 {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .col {
+            display: table-cell;
+            vertical-align: top;
+            padding-right: 12px;
+        }
+
+        .col:last-child {
+            padding-right: 0;
+        }
+
+        .box {
+            background-color: #f8fafc;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            padding: 10px 12px;
+            height: 100%;
+        }
+
+        .box-own {
+            border-top: 3px solid #0284c7;
+            background-color: #f0f9ff;
+        }
+
+        .box-out {
+            border-top: 3px solid #64748b;
+            background-color: #f8fafc;
+        }
+
+        .box-joint {
+            border-top: 3px solid #0f766e;
+            background-color: #f0fdf4;
+        }
+
+        .box-header {
+            font-weight: 700;
+            color: #0f172a;
+            font-size: 9.5pt;
+            margin-bottom: 6px;
+        }
+
+        .box-body {
+            font-size: 8.5pt;
+            color: #334155;
+        }
+
+        .box-body ul {
+            margin: 0;
+            padding-left: 14px;
+        }
+
+        .box-body li {
+            margin-bottom: 4px;
+        }
+
+        .box-body li:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Flowchart Styles */
+        .flow-container {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            margin-top: 6px;
+        }
+
+        .flow-step {
+            display: table-cell;
+            vertical-align: top;
+            text-align: center;
+            position: relative;
+        }
+
+        .flow-card {
+            background-color: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            padding: 10px 8px;
+            margin: 0 6px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+        }
+
+        .step-level {
+            display: inline-block;
+            font-size: 7.5pt;
+            font-weight: 700;
+            padding: 1px 6px;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            border-radius: 3px;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+
+        .step-title {
+            font-weight: 700;
+            font-size: 8.5pt;
+            color: #0f172a;
+            margin-bottom: 3px;
+        }
+
+        .step-time {
+            font-size: 8pt;
+            font-weight: 600;
+            color: #0f766e;
+            margin-bottom: 4px;
+        }
+
+        .step-desc {
+            font-size: 8pt;
+            color: #475569;
+            line-height: 1.3;
+        }
+
+        .arrow-cell {
+            display: table-cell;
+            vertical-align: middle;
+            width: 20px;
+            text-align: center;
+            font-weight: 700;
+            color: #94a3b8;
+            font-size: 11pt;
+        }
+
+        .footer {
+            margin-top: 14px;
+            padding-top: 8px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 8pt;
+            color: #94a3b8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="header-title">Team Charter: Ownership & Alignment</div>
+        <div class="header-subtitle">Fable Growth & Core Product Strategy</div>
+    </div>
+
+    <!-- SECTION 1: WHAT WE OWN -->
+    <div class="section-card">
+        <div class="section-title">1. Ownership Boundaries</div>
+        <div class="grid-3">
+            <div class="col">
+                <div class="box box-own">
+                    <div class="box-header">What We Own</div>
+                    <div class="box-body">
+                        <ul>
+                            <li><strong>Core Player:</strong> Audio/visual session experience[cite: 3].</li>
+                            <li><strong>Resolution Tracks:</strong> Structured multi-session programs[cite: 3].</li>
+                            <li><strong>Efficacy Tracking:</strong> In-app progress & symptom metrics[cite: 3].</li>
+                            <li><strong>Acute to Post-Acute:</strong> Guiding user recovery steps[cite: 3].</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box box-out">
+                    <div class="box-header">What Is Out of Scope</div>
+                    <div class="box-body">
+                        <ul>
+                            <li><strong>Onboarding Intake:</strong> Account setup & pre-module flows[cite: 3].</li>
+                            <li><strong>Retention & Paywalls:</strong> Push alerts, emails & subscriptions[cite: 3].</li>
+                            <li><strong>AI Engine Logic:</strong> Prompt models & underlying conversational AI[cite: 3].</li>
+                            <li><strong>Clinical Care:</strong> Psychiatric treatment & clinical diagnosis[cite: 3].</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box box-joint">
+                    <div class="box-header">Cross-Boundary Joint Calls</div>
+                    <div class="box-body">
+                        <ul>
+                            <li><strong>1) AI Check-in Integration:</strong> Placement and triggers inside playback[cite: 3].</li>
+                            <li><strong>2) Onboarding to Module Handoff:</strong> Routing intake into first track[cite: 3].</li>
+                            <li><strong>3) Transitioning Resolved Users:</strong> Moving users to post-acute paths[cite: 3].</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 2: HOW WE DECIDE -->
+    <div class="section-card">
+        <div class="section-title">2. How We Decide</div>
+        <div class="box-body" style="font-size: 9pt; color: #1e293b; background-color: #f8fafc; padding: 10px 12px; border-radius: 6px; border: 1px solid #e2e8f0;">
+            <strong>Domain Decision Principle:</strong> PMs define and own strategy within their respective domains[cite: 3]. Surrounding teams and cross-functional partners are consulted to provide input prior to execution[cite: 3].
+        </div>
+    </div>
+
+    <!-- SECTION 3: ESCALATION FLOWCHART -->
+    <div class="section-card">
+        <div class="section-title">3. Conflict Escalation Path</div>
+        
+        <div class="flow-container">
+            <!-- Step 1 -->
+            <div class="flow-step">
+                <div class="flow-card">
+                    <span class="step-level">Level 1</span>
+                    <div class="step-title">Peer Alignment</div>
+                    <div class="step-time">Within 48 Hours</div>
+                    <div class="step-desc">
+                        Overlap situations require peer input & joint decision making among domain PMs[cite: 3].
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow-cell">►</div>
+
+            <!-- Step 2 -->
+            <div class="flow-step">
+                <div class="flow-card">
+                    <span class="step-level">Level 2</span>
+                    <div class="step-title">Product Leader Escalation</div>
+                    <div class="step-time">Brought in at 48 hrs</div>
+                    <div class="step-desc">
+                        If peer agreement is not reached, Product Leaders are brought in to help drive decisions[cite: 3].
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow-cell">►</div>
+
+            <!-- Step 3 -->
+            <div class="flow-step">
+                <div class="flow-card">
+                    <span class="step-level">Level 3</span>
+                    <div class="step-title">Leader Verdict</div>
+                    <div class="step-time">Within 24 Hours</div>
+                    <div class="step-desc">
+                        Product Leaders evaluate trade-offs and issue a binding final decision within 24 hours[cite: 3].
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Fable Product Team Charter • Domain Alignment & Governance Document
+    </div>
+
+</body>
+</html>
