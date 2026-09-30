@@ -1,31 +1,21 @@
-# Outcome Roadmap & Trade-off Memo: [Fable / Meridian / your initiative]
+# Prioritization & Roadmapping, Module 2 Lab
 
-> Module 2 · Prioritization & Roadmapping for Product Leaders, ★ Deliverable 2
->
-> Translate your strategy into a multi-team, outcome-driven roadmap, and a memo defending the hard prioritization calls behind it.
+## Prioritize your Rocks and your Hard Nos
+- **Rock #1:** Redesign onboarding flow to capture 40% larger user base aligns with the north star of reducing churn.
+- **Rock #2:** Adding a daily streak feature to drive habit formation aligns with growing repeating 30-day user behavior.
+- **Rock #3:** Building AI-generated daily check-in prompts personalized to user history also aligns with growing repeating 30-day user behavior.
+- **❌ Hard No #1:** Avoid building a social layer; this is a personal journey that some people won't find rewarding to socialize.
+- **❌ Hard No #2:** Introducing a Fable for Teams. Workplace associated is a two-sided coin. Employees may not always think their employer has their best intrests in mind.
+- **❌ Hard No #3:** A premium tier with therapist-matching is complex & will drive usage away from the app.
 
-## 1. Outcome roadmap
+## Show and swap
+- **Do the Rock selections feel traceable to a clear strategy, or do they read like a feature list?:** Yes, they all map back to the goal of solving churn & keeping users involved.
+- **Pick one Hard No and make the case for why it should actually be a Rock.:** You may see higher long term adoption if you have official buy-in via a work channel.
 
-_A multi-team roadmap organized by **outcomes**, not feature lists. Show how near-term revenue pressure is balanced against long-term platform bets._
+## Review and refine
+- **Does every Now item read as a strategic bet, or does it sound like a feature description?:** Yes, but they're not always crystal clear.
+- **Can you trace every Now item back to one of your OKRs?:** Yes.
+- **If someone who had never seen your strategy read the Now column, would they know what problem you are solving this quarter?:** I think they could parse the main goals, yes.
 
-| Horizon | Outcome / bet | Owning team(s) | Success signal |
-|---|---|---|---|
-| Now (0 to 3 mo) | _____ | _____ | _____ |
-| Next (3 to 6 mo) | _____ | _____ | _____ |
-| Later (6 to 12 mo) | _____ | _____ | _____ |
-
-_[screenshot or shareable link to your roadmap visual]_
-
-## 2. Trade-off memo
-
-_What did you sequence first, what did you push out, and what did you cut entirely, and why? Use WSJF / cost of delay reasoning where it helps._
-
-> I chose to sequence … first because …
->
-> I pushed out … because …
->
-> I cut … entirely because …
-
-## Link to full artifact
-
-_[link to this deliverable in your repo]_
+## Save your roadmap
+- **Where did you save your roadmap? (link or file):** ./roadmap.html HTML file
